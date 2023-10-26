@@ -1,0 +1,110 @@
+
+
+body {
+    background-color: rgba(12, 12, 42, 0.932);
+}
+
+.navbar {
+    background-color: rgba(12, 12, 42, 0.932);
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: white!important;
+  }
+  
+  #con {
+    color: plum;
+  }
+  
+  .navbar .navbar-toggler:focus {
+    color: white;
+  }
+  
+
+
+#icons {
+    display: flex;
+    justify-content: center;
+}
+
+
+#img {
+    position: relative;
+   
+}
+
+#happy {
+        overflow: hidden;
+        border: 2px solid white;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 10px;
+}
+
+#foot {
+        margin-top: 6rem;
+        background-color:black;
+}
+
+#clip {
+    background-color:white;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .form-control {
+    border: 2px solid  rgba(12, 12, 42, 0.932) ;
+    background-color:rgba(12, 12, 42, 0.932) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    padding-left: 2rem;
+  }
+
+  #sub {
+    width: 100px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(12, 12, 42, 0.932);
+  }
+
+  #forum {
+    margin-top: 7rem;
+  }
+
+  #maddies {
+    font-size: 18px;
+    color: white;
+}
+
+#hove{
+    position: relative;
+}
+#hove::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 220ms;
+}
+#hove:hover::before{
+    width:  100%;
+}
+
+#icon1:hover {
+color:rgba(12, 12, 42, 0.932) ;
+}
+
+#gift{
+    font-size:15px ;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.709); 
+}

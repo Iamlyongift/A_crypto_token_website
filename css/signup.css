@@ -1,0 +1,97 @@
+
+.container {
+    position: relative;
+   background-color: white;
+   height: 85vh;
+    margin-top: 2rem;
+    border-top: none;
+    border: 1px solid  rgba(12, 12, 42, 0.932);;
+    padding-bottom: 6rem;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+body {
+    background-color: white;
+}
+
+.navbar{
+    background-color: rgba(12, 12, 42, 0.932);
+  }
+
+  .navbar .navbar-toggler[aria-expanded="true"] {
+    color: white!important;
+  }
+  
+  #con {
+    color: plum;
+  }
+  
+  .navbar .navbar-toggler:focus {
+    color: white;
+  }
+  
+
+.upper { 
+    background-color: rgba(12, 12, 42, 0.932);
+    height: 120px;
+    width: 100%;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+#clip {
+    background-color: white;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+  }
+
+  #goal {
+    width: 120px;
+    padding: 10px;
+    color: white;
+   background-color: rgba(12, 12, 42, 0.932);
+    border: 1px solid  rgba(12, 12, 42, 0.932);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+  }
+.form-control {
+    padding-left: 1rem;
+    border: 1px solid  rgba(12, 12, 42, 0.932);
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+}
+
+#link {
+    color:rgba(12, 12, 42, 0.932);
+}
+
+#hove{
+  position: relative;
+}
+#hove::before{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 220ms;
+}
+#hove:hover::before{
+  width:  100%;
+}
+
+#icon1:hover {
+color:rgba(12, 12, 42, 0.932) ;
+}
+
+#all {
+  margin-top: 7rem;
+}

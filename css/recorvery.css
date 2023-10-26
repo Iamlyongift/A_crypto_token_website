@@ -1,0 +1,43 @@
+
+
+#clip {
+    background-color: white;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+  }
+
+.container {
+    background-color:rgba(12, 12, 42, 0.932);
+    border-radius: 10px;
+}
+
+#pass {
+    text-align-last: center;
+}
+
+#tata {
+    color: rgba(245, 222, 179, 0.566);
+}
+
+#goal {
+        width: 100px;
+        padding: 10px;
+        color: white;
+        background-color:rgba(12, 12, 42, 0.932);
+        border: 1px solid rgba(12, 12, 42, 0.932);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 10px;
+}
+
+.form-control {
+    border: 2px solid  rgba(12, 12, 42, 0.932) ;
+    background-color:rgba(12, 12, 42, 0.932) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    padding-left: 2rem;
+  }

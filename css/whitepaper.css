@@ -1,0 +1,216 @@
+#maden{
+    font-size: 50px;
+}
+
+.white {
+    color: rgba(255, 255, 255, 0.757);
+}
+
+.navbar {
+    background-color: rgba(12, 12, 42, 0.932);
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+  color: white!important;
+}
+
+#con {
+  color: plum;
+}
+
+.navbar .navbar-toggler:focus {
+  color: white;
+}
+
+
+body {
+    background-color: rgba(12, 12, 42, 0.932);
+}
+
+
+#gift{
+  font-size:15px ;
+  text-align: justify;
+  color: rgba(255, 255, 255, 0.709); 
+}
+
+
+#butt {
+    width: 200px;
+    padding: 20px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(12, 12, 42, 0.932);
+}
+
+#yepa {
+  margin-top: 7rem;
+}
+
+
+.form-control {
+    border: 2px solid  rgba(12, 12, 42, 0.932) ;
+    background-color:rgba(12, 12, 42, 0.932) ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    padding-left: 2rem;
+  }
+
+  #foot {
+    margin-top: 6rem;
+    background-color:black;
+}
+
+#hega {
+    color: rgba(255, 255, 255, 0.766);
+}
+
+
+#clip {
+    background-color:white;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  #hove{
+    position: relative;
+  }
+  #hove::before{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 220ms;
+  }
+  #hove:hover::before{
+    width:  100%;
+  }
+  
+  #icon1:hover {
+  color:rgba(12, 12, 42, 0.932) ;
+  }
+
+
+  /* countdown */
+  #countdown {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 3rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px,  inset -1px 1px 15px #929191;
+  }
+
+  #count {
+    padding: 1.5rem;
+  }
+
+  #countdown div {
+    padding: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    background-color:rgba(12, 12, 42, 0.932);
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+
+  #countdown div span {
+    color:white;
+  }
+
+  #sub {
+    width: 100px;
+    padding: 9px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(12, 12, 42, 0.932);
+  }
+
+ 
+ 
+
+  /* html,
+  body {
+    height: 100%;
+    margin: 0;
+  } */
+/* 
+   {
+    align-items: center;
+    background-color: #885dcc;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  } */
+/* 
+  #count {
+    color:white;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    padding: 40px 70px;
+    border: 5px solid white;
+    box-shadow: -3px 5px 15px #403e3e, inset -1px 1px 15px #929191;
+  }
+/*  */
+  /* h1 {
+    font-weight: bold;
+    color: rgba(12, 12, 42, 0.932);
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+  }
+
+  .lite {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 10px;
+    background: rgba(12, 12, 42, 0.932);
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 10px;
+  }
+
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+     .lite{
+      font-size: 1.125rem;
+      padding: 0.75rem;
+    }
+
+    li span {
+      font-size: 3.375rem;
+    }
+  } */ 

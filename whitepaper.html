@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/whitepaper.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html">
+          <img
+            src="imgPro/Screenshot_20230828-091832_Chrome-removebg-preview.png"
+            alt=""
+            width="90"
+            height="60"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="index.html"
+                id="hove"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" id="hove" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" id="hove" href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" id="hove" href="roadmap.html"
+                >Roadmap</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-justify" id="yepa">
+      <h1 class="text-white text-center">WHITEPAPER</h1>
+      <p class="white" id="gift">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat
+        corporis molestias eligendi neque id deserunt aperiam veritatis
+        aspernatur minus modi maiores, atque reprehenderit beatae quo voluptatum
+        eveniet saepe rem consectetur delectus harum, optio temporibus nobis,
+        esse odio. Cumque expedita amet totam, aliquam quisquam assumenda.
+        Perferendis quos maxime magnam? Necessitatibus deleniti facilis ipsum
+        quibusdam cumque modi? Fuga debitis laborum praesentium dolorum. In
+        ipsum cupiditate maxime eum asperiores quae quidem quos doloremque
+        perspiciatis alias! Velit magnam cumque, illum doloribus nihil
+        blanditiis ut pariatur nesciunt cum voluptatum iusto officia? Quasi
+        error facere perferendis. Distinctio quibusdam illum nulla aperiam
+        deserunt corporis expedita aliquid, perspiciatis delectus doloribus unde
+        architecto repellat facilis eveniet asperiores quam laboriosam iure?
+        Vitae, similique nemo iste laboriosam ut consectetur quasi aspernatur
+        nisi ducimus. Nihil iusto, recusandae alias rem corrupti numquam quod
+        nemo provident voluptates aliquid id ipsam, impedit soluta excepturi
+        incidunt perspiciatis praesentium. Aliquid consectetur laboriosam
+        corrupti rem. Ducimus laudantium cum amet, explicabo similique
+        asperiores error aliquam quibusdam, commodi eius, iusto placeat quidem
+        inventore sunt non ipsam. Laborum doloribus voluptas deserunt dolor
+        maiores ratione mollitia cum incidunt minima molestias. Atque
+        perferendis nihil, nam repellendus commodi sequi ex, cupiditate illum ab
+        asperiores iure aperiam? Ad iste voluptatem corporis. Porro quia qui
+        beatae.
+      </p>
+
+      <center>
+        <a
+          class="text-decoration-none mt-5 text-white text-capitalize"
+          id="butt"
+          href=""
+          >join our community</a
+        >
+      </center>
+    </div>
+
+    <div class="d-flex gap-4 mt-4 mb-4 justify-content-center" id="icons">
+      <a class="text-decoration-none" href="https://www.facebook.com"
+        ><i class="ri-facebook-fill text-white" id="maden"></i
+      ></a>
+      <a class="text-decoration-none" href="https://www.twitter.com"
+        ><i class="ri-twitter-fill text-white" id="maden"></i
+      ></a>
+      <a class="text-decoration-none" href="https://www.youtube.com"
+        ><i class="ri-youtube-fill text-white" id="maden"></i
+      ></a>
+      <a class="text-decoration-none" href="https://www.github.com"
+        ><i class="ri-github-fill text-white" id="maden"></i
+      ></a>
+      <a class="text-decoration-none" href="https://www.telegram.com"
+        ><i class="ri-telegram-fill text-white" id="maden"></i
+      ></a>
+    </div>
+
+    <!--    
+  countdown -->
+    <div class="container" id="count">
+      <h1 class="text-capitalize text-center text-white display-11">
+        Countdown to launch
+      </h1>
+      <div class="row mt-3" id="countdown">
+        <div class="col" id="days"></div>
+        <div class="col" id="hours"></div>
+        <div class="col" id="minutes"></div>
+        <div class="col" id="seconds"></div>
+      </div>
+    </div>
+
+    <script>
+      var daysContainer = document.querySelector("#days");
+      var hoursContainer = document.querySelector("#hours");
+      var minutesContainer = document.querySelector("#minutes");
+      var secondsContainer = document.querySelector("#seconds");
+
+      function updateCountdown() {
+        var newYear = new Date("January 1, 2024 00:00:00");
+        var currentTime = new Date();
+
+        var diff = newYear - currentTime;
+
+        var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        var hours = Math.floor(
+          (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+        daysContainer.innerHTML = days + "<span> Days</span>";
+        hoursContainer.innerHTML = hours + "<span> Hours</span>";
+        minutesContainer.innerHTML = minutes + "<span> Minutes</span>";
+        secondsContainer.innerHTML = seconds + "<span> Seconds</span>";
+      }
+
+      setInterval(updateCountdown, 1000);
+    </script>
+
+    <footer>
+      <div class="container-fluid" id="foot">
+        <div class="container border-bottom mt-5">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 mt-3 d-none d-md-block">
+              <div>
+                <img
+                  class="img-fluid"
+                  src="imgPro/Screenshot_20230828-091832_Chrome-removebg-preview.png"
+                  width="250"
+                  alt=""
+                  height="180"
+                />
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-3 mt-5">
+              <h3 class="text-capitalize" id="clip">Quick Links</h3>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="text-decoration-none" id="hega" href="">Home</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" id="hega" href="">About</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" id="hega" href="">Team</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" id="hega" href="">FAQ</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" id="hega" href=""
+                    >contact us</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12 mt-5">
+              <h3 class="text-capitalize" id="clip">come find us</h3>
+              <p id="hega">
+                The Cryptorial street no 41c suite 21, 75 00 Berlin, BRD
+              </p>
+              <p id="hega">info@Giftcoin.com</p>
+              <p id="hega">+27 72 803 9456</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12 mt-5 mb-5">
+              <h3 class="text-capitalize" id="clip">stay conected</h3>
+              <div class="d-flex gap-4">
+                <a
+                  class="text-decoration-none text-white"
+                  href="https://www.facebook.com"
+                  ><i class="ri-facebook-fill text-white" id="maddies"></i
+                ></a>
+                <a class="text-decoration-none" href="https://www.twitter.com"
+                  ><i class="ri-twitter-fill text-white" id="maddies"></i
+                ></a>
+                <a class="text-decoration-none" href="https://www.youtube.com"
+                  ><i class="ri-youtube-fill text-white" id="maddies"></i
+                ></a>
+                <a class="text-decoration-none" href="https://www.github.com"
+                  ><i class="ri-github-fill text-white" id="maddies"></i
+                ></a>
+                <a class="text-decoration-none" href="https://www.telegram.com"
+                  ><i class="ri-telegram-fill text-white" id="maddies"></i
+                ></a>
+              </div>
+              <h5 id="clip">subscribe to newsletter</h5>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="enter your email"
+              />
+              <a class="btn text-white mt-3" id="sub" href="#">subscribe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.jss"></script>
+  </body>
+</html>
